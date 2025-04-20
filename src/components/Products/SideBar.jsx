@@ -19,7 +19,7 @@ const SideBar = ({ isOpen, toggleSidebar }) => {
         className={`lg:static absolute top-0 left-0 z-30 w-full h-full flex items-center transform transition-transform duration-300 ease-in-out
           ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
       >
-        <div className="w-[65%] md:w-[50%] lg:w-[100%] h-full">
+        <div className="w-[65%] md:w-[50%] lg:w-[100%] bg-white h-full">
           {/* categories */}
           <div className="mt-12 mx-5">
             <div className="pb-3 border-b border-gray-200">

@@ -7,11 +7,11 @@ import PromoBanner from './components/PromoBanner/PromoBanner'
 function App() {
   return (
     <>
-      <HeroSection />
-      <Index />
+        <HeroSection />
+        <Index />
       <PromoBanner />
     </>
-  )
+  );
 }
 
 export default App
